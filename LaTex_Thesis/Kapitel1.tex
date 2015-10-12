@@ -1,0 +1,79 @@
+% !TeX encoding = ISO-8859-1
+\chapter{Introduction}
+\label{ch:Introduction}
+
+\section{Motivation}
+\label{sec:Motivation}
+
+Computer vision systems and their capabilities have advanced in the recent years. They make use of the more powerful computer processing capabilities and new learning methods/algorithms to improve the overall performance. Autonomous driving is one of several application that benefits from these advances.
+ 
+In order to obtain a deeper understanding of the surrounding environment, autonomous driving applications can take advantage of camera images. Complex situations can take place in traffic environments, therefore an efficient analysis of the provided images is required. In order to extract the important information contained in the images, different technologies are used (e.g object detection, semantic segmentation, etc). \textit{Semantic segmentation} (pixel classification) simplifies an image by associating a predefined class labels to each pixel, while \textit{Object detection} localizes objects which belong to determined classes. 
+ 
+The purpose of this work is to yield a Semantic segmentation of traffic scenes with an outstanding performance and able to be implemented in real time applications. The selected approach exploits the recent developments in machine learning and more specifically makes use of \textit{Convolutional Neural Networks} (CNNs) using \textbf{Caffe} (\textcite{jia2014caffe}) as framework.
+
+Convolutional Neural Networks (CNNs) have become the mainstream of high-level vision research. They are powerful visual models that yield hierarchies of features, and were successfully used for the first time to solve document recognition (\textcite{lecun1998gradient}). CNNs currently show state of the art performance in high level vision tasks (e.g. image classification, object recognition,object detection, etc.). More information about the success of CNNs is presented in Section ~\ref{sec:pixsemseg}. 
+
+The spatial relation yield in the image semantic segmentation is also benefited from a temporal relation within the continuous stream of images. The previous frames provide information which allows to enhance the current image segmentation. The main idea of this addition is to get a more accurate segmentation while producing a smoother stream of segmented images. Causal segmentation with state of the art results is covered in Section ~\ref{sec:tempsemseg}. 
+
+\section{Objective}  
+ 
+%Modern vision systems have been developed in the recent years. They exploit the more powerful processing capabilities and new learning methods that improve the overall performance. % Autonomous driving is now possible due to such advances.
+%In order to obtain a deeper understanding of the environment, the scenes provided by a videocamera must be analysed. Semantic Segmentation methods are used to obtain  
+%\textit{Convolutional Neural Networks} have acquired 
+%Semantic Segmentation methods are used in order to acquire a profound understanding of a scene.
+%Convolutional Neural Networks (CNN) were chosen in this thesis as an approach to cope with this task; they have become the mainstream of high-level vision research. CNNs are powerful visual models that yield hierarchies of features, previously used to solve Document recognition % Cite LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P. Gradient-based learning applied to document recognition. In Proc. IEEE, 1998. 
+%but in recent years they have shown state of the art performance in high-level vision tasks (i.e. Image Classification, Object Recognition and Object Detection).
+
+
+
+%Progression 
+ 
+%Advances in Computer Vision have been done in the recent years, leading to outperfoming results in several tasks such as: Image Classification, Recognition and Detection. New approaches and algorithms  in Machine learning were developed to overcome the holistic difficulties of these tasks. Nevertheless Scene Parsing, Semantic Segmentation among other tasks are still far from showing results equally good  
+
+%Convolutional Neural Networks (CNN) have shown a performance in  
+
+%\emph{http://scholar.google.de/}
+
+%eispielsweise in \textcite{Leit1} zu finden.
+%The thesis approach to undertake semantic segmentation tasks for traffic scene recognition draws on the recent success of deep learning methods for image classification, detection, recognition, et cetera.  \textcite{} It was demonstrated that learning can be  transferred on various visual tasks such as recognition \textcite{} , detection \textcite{} and also in semantic segmentation \textcite{} (Farabet, Long,) Long Jon, et al. \textcite{} has been a watershed in semantic segmentation by solely using a former classifier and modifying its inner layers to yield a pixelwise labeling CNN. Farabet et al. \textcite{} is also remarkable because it combines multi-scale convolution and graph based methods (i.e. Superpixels, Conditional Random Fields, et cetera.)  
+
+%The second part of this work focuses on creating a causal segmentation and a temporal smoothing for a traffic video. In order to achieve a better segmentation, it is desirable to explore temporal relations besides the already learned spatial relations. To overcome such task several approaches have been developed. For this work purposes a causal stream processing approach was taken. Previous works \textcite{} (Couprie et al. , Miksik et al. Paris et al. Ess et al. Floros et al.) show that it is actually possible to take previous frames from a video stream and to mix them to process the current frame to achieve a more accurate segmentation. This work chose the approach present in Couprie et al. \textcite{} which combines the super-pixels produced by \textcite{}, graph matching procedure based on optical flow and the semantics segmentation provided by a CNN.  
+
+\section{Experimental Setup with Caffe}
+\label{sec:expcaffe}
+\href{http://caffe.berkeleyvision.org/}{\textbf{Caffe}} (\textcite{jia2014caffe}) is a deep learning framework developed by the Berkeley Vision and Learning Center (BVLC). It is a C++ library with Python bindings for state of the art deep learning algorithms. The code is written in a clean and efficient way with CUDA used for GPU computation. All of these features allow to speed up the research progress and  facilitate to share results. There are similar frameworks (e.g. Theano, Torch, etc.) that provide similar functionalities.
+
+Caffe allows to create, train, test, fine-tune and deploy deep learning architectures in a simple way. It is mostly focused on Convolutional Neural Networks for large scale visual recognition. It has been mostly used for object classification, semantic features learning and object detection. However it has also been used for different purposes (e.g. speech recognition, robotics, astronomy, etc.).
+
+The great advantages of this framework are the availability of reference models and a clean separation of the network definition from the implementation among others. It is under constant development and maintenance by the efforts of BVLC students and open-source contributions.
+
+The work presented in this thesis profits from the available pre-trained models with state of the art results (e.g. "AlexNet", "GoogLeNet", etc.)and, n order to yield pixelwise classification, the changes presented in \textcite{long2014fully} (i.e. Crop Layer) are applied to the current Caffe distribution. Caffe implementation details are described in Chapter ~\ref{ch:expfram}.
+
+\section{CamVid Dataset}
+\label{sec:camvid}
+
+\href{http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/}{\textbf{CamVid}} (Cambridge-driving Labeled Video Dataset) is a freely available dataset consisting of videos with object class semantic labels (\textcite{BrostowFC:PRL2008}). All the data contained within was captured from the perspective of a driving automobile. Therefore this dataset is suitable for traffic scene understanding.
+
+The dataset includes four HD video sequences with a 960x720 resoltion at 30 fps. This dataset provides 701 images with their respective ground truth labels (manually labeled) that associate each pixel with one of 32 semantic labels. It consists of a mix of environments with both urban an residential scenarios. It was also captured at daylight and at dusk. This capture settings make the CamVid dataset ideal to develop robust and diverse learning methods. 
+
+The training and testing data was taken from previous works \textcite{BrostowSFC:ECCV08}  to simplify comparison with different segmentation techniques. In order to reduce computational processing efforts and due a big number of labels with relative scarce presence only 11 semantic classes will be considered in this thesis. The high definition and the length of the captured videos allow to cope with small objects (i.e. pedestrians, traffic signs, road marking, etc.) and to get multiple testing images under the same illumination and camera conditions. CamVid dataset processing and handling is covered in Chapter ~\ref{ch:expfram}
+
+\section{Overview}
+\label{sec:overview}
+
+In Chapter ~\ref{ch:relwork} covers the related work. Several approaches for semantic segmentation and temporary consistent segmentation with state of the art results are presented with their respective description. For semantic segmentation, just work related to CNNs is considered. Explanations about complementary parts of this work is beyond the scope of this thesis. For temporary consistent segmentation, only methods that rely on current and past data. This is done to avoid frame-by-frame and omnipresent approaches that cannot be implemented on real time (online) applications.
+
+Chapter ~\ref{ch:thefram} contains the theoretical framework. The first section explains what Convolutional Neural Networks are, their characteristics (e.g. architecture, deep learning, layers, etc.) and describes how they are used for high-level vision tasks. The second section covers the temporary consistent segmentation. It mainly focuses on segmentation algorithms and image matching techniques which are explained in order to have a clear understanding of causal segmentation. Temporal smoothing and segmentation accuracy are also covered. 
+
+Chapter ~\ref{ch:expfram} presents the experiments that were driven. The experimental framework is divided into four sections: CamVid dataset, CNNs, , temporary consistent segmentation and their respective results. The first section gives details of how the image processing, data augmentation, and training/testing data partition take place. The CNN section describes the adaptation process of pre-trained networks, different architectures, initialization methods, and learning techniques used.  The third section covers the integration between independent segmentations and temporary consistent segmentations (i.e. how causal segmentation is yield). The last part contains the results of the driven experiments. 
+
+Chapter ~\ref{ch:concl} finishes by covering various conclusions as well as the outlook of pre-trained convolutional neural networks for traffic scene labeling. Finally it presents the possibilities for future work.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+

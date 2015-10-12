@@ -1,0 +1,25 @@
+\begin{thenomenclature} 
+
+ \nomgroup{Symbols}
+
+  \item [{$\mathbf{x}(t)$}]\begingroup Zustandsvektor zum Zeitpunkt $t$\nomeqref {0.0.0}
+		\nompageref{iii}
+  \item [{$t$}]\begingroup Zeit\nomeqref {0.0.0}\nompageref{iii}
+  \item [{$u(t)$}]\begingroup Eingangssignal zum Zeitpunkt $t$\nomeqref {0.0.0}
+		\nompageref{iii}
+  \item [{$x,y,z$}]\begingroup Spatial coordinates\nomeqref {0.0.0}
+		\nompageref{iii}
+
+ \nomgroup{A}
+
+  \item [{Abrev.}]\begingroup Abbreviation\nomeqref {0.0.0}
+		\nompageref{iii}
+  \item [{KF}]\begingroup \textbf{K}alman \textbf{F}ilter\nomeqref {0.0.0}
+		\nompageref{iii}
+
+ \nomgroup{B}
+
+  \item [{$\alpha$}]\begingroup Griechischer Buchstabe\nomeqref {0.0.0}
+		\nompageref{iii}
+
+\end{thenomenclature}

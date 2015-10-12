@@ -1,0 +1,32 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+The style file: biblatex.bst
+White space in argument---line 1963 of file thesis.aux
+ : \citation{\^a\IeC
+ :                   {\texteuro }\IeC {\textcent }}
+I'm skipping whatever remains of this command
+White space in argument---line 1964 of file thesis.aux
+ : \citation{\^a\IeC
+ :                   {\texteuro }\IeC {\textcent }}
+I'm skipping whatever remains of this command
+White space in argument---line 1965 of file thesis.aux
+ : \citation{\^a\IeC
+ :                   {\texteuro }\IeC {\textcent }}
+I'm skipping whatever remains of this command
+White space in argument---line 1989 of file thesis.aux
+ : \citation{\^a\IeC
+ :                   {\texteuro }\IeC {\textcent }}
+I'm skipping whatever remains of this command
+White space in argument---line 1990 of file thesis.aux
+ : \citation{\^a\IeC
+ :                   {\texteuro }\IeC {\textcent }}
+I'm skipping whatever remains of this command
+Database file #1: thesis-blx.bib
+Database file #2: thesis.bib
+I was expecting a `,' or a `}'---line 418 of file thesis.bib
+ :   
+ :   optpages =  {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "maas2013"
+Biblatex version: 3.0
+(There were 6 error messages)

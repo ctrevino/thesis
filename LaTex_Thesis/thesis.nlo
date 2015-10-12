@@ -1,0 +1,7 @@
+\nomenclatureentry{$\mathbf{x}(t)$@[{$\mathbf{x}(t)$}]\begingroup Zustandsvektor zum Zeitpunkt $t$\nomeqref {0.0.0}|nompageref}{iii}
+\nomenclatureentry{$u(t)$@[{$u(t)$}]\begingroup Eingangssignal zum Zeitpunkt $t$\nomeqref {0.0.0}|nompageref}{iii}
+\nomenclatureentry{$t$@[{$t$}]\begingroup Zeit\nomeqref {0.0.0}|nompageref}{iii}
+\nomenclatureentry{$x,y,z$@[{$x,y,z$}]\begingroup Spatial coordinates\nomeqref {0.0.0}|nompageref}{iii}
+\nomenclatureentry{AAbrev.@[{Abrev.}]\begingroup Abbreviation\nomeqref {0.0.0}|nompageref}{iii}
+\nomenclatureentry{AKF@[{KF}]\begingroup \textbf{K}alman \textbf{F}ilter\nomeqref {0.0.0}|nompageref}{iii}
+\nomenclatureentry{B$\alpha$@[{$\alpha$}]\begingroup Griechischer Buchstabe\nomeqref {0.0.0}|nompageref}{iii}

@@ -1,0 +1,84 @@
+% !TeX encoding = ISO-8859-1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Experimental Framework}
+\label{ch:expfram}
+In order to yield semantic segmentation results product of \textit{Convolutional Neural Networks}, this thesis uses and modifies two pre-trained \textit{Convnets} (e. g. Alexnet and GoogLeNet). The AlexNet \textcite{Krizhevsky_imagenetclassification} won the ILSVRC12. The GoogLeNet \textcite{szegedy2014going} performed especially well in ILSVRC14 and proposed an \textit{inception} architecture. The adaptation of these classifier \textit{convnets} is based on \textcite{long2014fully}.
+Afterwards a temporary consistent segmentation is developed using the efficient graph-based segmentation \textcite{felzenszwalb2004efficient} as implemented in \textcite{couprie2013causal}
+The following sections explain in detail the experiments realised in each stage.
+\section{Adapting classifiers}
+\label{Adapting classifiers}
+The main change done inside the selected networks w
+Replacing the Inner 
+Classifiers yield a non-spatial outputs. The fully connected layers (convolution layers) take fixed size inputs and produce spatial coordinates as outputs. If the convolution are considered to cover entire input regions. By modifying the last layers within the Classifiers, a coarse pixelwise prediction is produced. The network becomes a fully convolutional layer takes inputs and yields a classification map as an output. 
+
+The key factor are these outputs maps and they are a natural choice for semantic segmentation.
+A drawback of this approach are the output dimensions, which are reduced by subsampling. This yields a coarse output, reducing it from the original input size by a factor of the stride within each pooling layer.
+\section{F}
+\label{F}
+Hariharan et al. \cite{•} introduce the concept of a hypercolumn. It basically starts from the idea that recognition algorithms only use the information of the last layer of the CNN. This makes sense for tasks like classification, due the invariance product of the pooling layers.
+For tasks as segmentation, pose estimation, detection, et cetera. this last layer is not enough for an optimal representation. 
+Intermediate layers possess information less prone to be sensitive to semantics.
+Multiple levels of abstraction and scale are recommended to consider information within inner layers. Farabet et al. \cite{•} consider this fact by creating a multiscale feature learning method. This thesis approach is inspired in Long et al. \cite{•} combining the last prediction layer with inner layers finer strides. The combination of shallow and deep layers information yields an output for a global structure. 
+
+Part of the experiments was to select where to start the inner layer branching. Inside each layer exist Pooling, Convolution, Normalization and Detector stages. After each pooling stage the input size is downsampled (stride).
+
+Early branching stages and Late branching stages are presented. The early branching happens right after the respective Pooling stage having less processed data. The latter on the other hand occurs just before the next Pooling stage, this has 
+
+\section{AlexNet}
+\label{AlexNet}
+Krizhevsky et al. \cite{•} 
+\section{Dropout}
+\label{Dropout}
+\section{Weight Filler}
+\label{Weight Filler}
+
+When a layer is created from scratch it has no values. In order to modify the learning process the bias and the weight initializers can be modified. This thesis present the obtained results with 3 types of weight fillers: Gaussian, Xavier \cite{•} and no weight filler. For the bias, 0 and 1 values were chosen. In the case of the Xavier and Gaussian fillers, stride 
+
+\section{Learning Rate}
+\label{Learning Rate}
+
+\begin{itemize}
+ \item Weight Filler:
+ \begin{itemize}
+ \item Xavier Filler
+ \item Gaussian Filler
+ \item No Filler
+ \end{itemize}
+ \item Learning Rate
+ \item Momentum
+ \item Learning Policy
+\end{itemize}
+
+\section{Net Surgery}
+\label{Net Surgery}
+
+Net Surgery is . It allows to transplant previous learned weights from one layer into another. For CNNs this is an advantage since it ports the already available information from the inner product layers inherent in a classifier.
+These transplanted weights are later used to initialize the new convolutional layers.  
+
+\section{Fine-tuning}
+\label{Fine-tuning}
+
+Fine-tuning is the act of modifying an already available layer by changing its number of outputs. The modified layer re-learns its weights and use previous data to do so. In the chosen network architectures.
+Fine-tuning allows to use pre-trained networks and cope with the need of enormous amount of data for training. The main advantage of fine-tuning is 
+
+\section{CamVid Dataset}
+\label{CamVid Dataset}
+
+The CamVid dataset \textcite{BrostowFC:PRL2008} contains 701 images from traffic scenes. The dataset is provided with High Resolution images (960x720) taken at 1Hz and 15 Hz respectively. It has 32 semantic labels that were manually added.
+In order to accomplish an appropriate fine-tuning for the AlexNet and GoogLeNet, these images were used as follow:
+
+\begin{itemize}
+ \item Images are downsampled by a factor of two. This changes the resolution from 960x720 to 480x360. The main reason to do this downsampling is due hardware limitations that make training more difficult and time consuming. The raw pixels images are downsampled using the \textit{Antialiasing} algorithm, while the ground truth images use the \textit{Nearest Neighbor} algorithm, which avoid color mixing that would otherwise corrupt our ground truth.
+ \item Training and testing datasets are gotten from \textcite {BrostowSFC:ECCV08}. This allows our results to be compared with other segmentation algorithms.
+  \item Because the dataset could be to small to train efficiently a CNN, \textit{Data augmentation} is applied. In order to augment the available training data, the images are mirrored, and the center of the images with original resolution (960x720) is cropped. 
+ \item A mask is applied to the 32 semantic classes, just leaving the 11 more frequent classes (See Table xx). This reduces computation requirements and allow to compare results with already available segmentation algorithms results on CamVid data set \textcite{} (cite papers with CamVid accuracy). 
+\end{itemize}  
+
+\section{Temporary Consistent segmentation}
+\label{temporary consistent segmentation}
+CamVid provides the video sequences from where the image dataset was obtained. All the images are obtained from these video sequences using the \href{https://www.ffmpeg.org/}{\textbf{FFMPEG}} software. These images belong to the video sequences \href{http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/}{Seq05VD and 0001TP}. 
+After a frame by frame segmentation using the fine-tuned CNN, these images are processed using the code from %%\textcite{couprie2013causal}
+The parameters to be modified belong to the efficient graph based segmentation %%\textcite{felzenszwalb2004efficient} (i.e. \textit{K}, \textit{\sigma}) and additional constraint for the Optical Flow. 
+The result images are later merged in a video back into a video. The images that are available in the original dataset will be taken with their respective segmentation to be compared with the frame by frame approach.
+
+\section{Results}

@@ -1,0 +1,1619 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Bengio-et-al-2015-Book}{unpublished}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bengio}{B.}%
+     {Yoshua}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goodfellow}{G.}%
+     {Ian~J.}{I.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Courville}{C.}%
+     {Aaron}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BYGIJCA1}
+  \strng{fullhash}{BYGIJCA1}
+  \field{labelyear}{2015}
+  \field{sortinit}{B}
+  \field{note}{Book in preparation for MIT Press}
+  \field{title}{Deep Learning}
+  \verb{url}
+  \verb http://www.iro.umontreal.ca/~bengioy/dlbook
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{bottou2012stochastic}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bottou}{B.}%
+     {L{\'e}on}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{BL1}
+  \strng{fullhash}{BL1}
+  \field{labelyear}{2012}
+  \field{sortinit}{B}
+  \field{booktitle}{Neural Networks: Tricks of the Trade}
+  \field{pages}{421\bibrangedash 436}
+  \field{title}{Stochastic gradient descent tricks}
+  \field{year}{2012}
+\endentry
+
+\entry{BrostowFC:PRL2008}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Brostow}{B.}%
+     {"Gabriel~J.}{G.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fauqueur}{F.}%
+     {Julien}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cipolla"}{C.}%
+     {Roberto}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BGJFJCR1}
+  \strng{fullhash}{BGJFJCR1}
+  \field{labelyear}{"2008"}
+  \field{sortinit}{B}
+  \field{number}{"x"}
+  \field{pages}{"xx\bibrangedash xx"}
+  \field{title}{"Semantic Object Classes in Video: A High-Definition Ground
+  Truth Database"}
+  \field{volume}{"xx"}
+  \field{journaltitle}{"Pattern Recognition Letters"}
+  \field{year}{"2008"}
+\endentry
+
+\entry{BrostowSFC:ECCV08}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Brostow}{B.}%
+     {Gabriel~J.}{G.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shotton}{S.}%
+     {Jamie}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fauqueur}{F.}%
+     {Julien}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cipolla}{C.}%
+     {Roberto}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BGJ+1}
+  \strng{fullhash}{BGJSJFJCR1}
+  \field{labelyear}{2008}
+  \field{sortinit}{B}
+  \field{booktitle}{ECCV (1)}
+  \field{pages}{44\bibrangedash 57}
+  \field{title}{Segmentation and Recognition Using Structure from Motion Point
+  Clouds}
+  \field{year}{2008}
+\endentry
+
+\entry{chen14semantic}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Chen}{C.}%
+     {Liang-Chieh}{L.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Papandreou}{P.}%
+     {George}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kokkinos}{K.}%
+     {Iasonas}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Murphy}{M.}%
+     {Kevin}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yuille}{Y.}%
+     {Alan~L}{A.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CLC+1}
+  \strng{fullhash}{CLCPGKIMKYAL1}
+  \field{labelyear}{2015}
+  \field{sortinit}{C}
+  \field{booktitle}{ICLR}
+  \field{title}{Semantic Image Segmentation with Deep Convolutional Nets and
+  Fully Connected CRFs}
+  \verb{url}
+  \verb http://arxiv.org/abs/1412.7062
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{ciresan2011flexible}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Ciresan}{C.}%
+     {Dan~C}{D.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meier}{M.}%
+     {Ueli}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Masci}{M.}%
+     {Jonathan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maria~Gambardella}{M.~G.}%
+     {Luca}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmidhuber}{S.}%
+     {J{\"u}rgen}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CDC+1}
+  \strng{fullhash}{CDCMUMJMGLSJ1}
+  \field{labelyear}{2011}
+  \field{sortinit}{C}
+  \field{booktitle}{IJCAI Proceedings-International Joint Conference on
+  Artificial Intelligence}
+  \field{number}{1}
+  \field{pages}{1237}
+  \field{title}{Flexible, high performance convolutional neural networks for
+  image classification}
+  \field{volume}{22}
+  \field{year}{2011}
+\endentry
+
+\entry{farabet2013pami}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Clement~Farabet}{C.~F.}%
+     {Laurent~Najman}{L.~N.}%
+     {}{}%
+     {Camille~Couprie}{C.~C.}}%
+    {{}%
+     {LeCun}{L.}%
+     {Yann}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CFCCLNLY1}
+  \strng{fullhash}{CFCCLNLY1}
+  \field{labelyear}{2013}
+  \field{sortinit}{C}
+  \field{note}{in press}
+  \field{title}{Learning Hierarchical Features for Scene Labeling}
+  \field{journaltitle}{IEEE Trans. on Pat. Anal. and Mach. Int.}
+  \field{year}{2013}
+\endentry
+
+\entry{couprie2013causal}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Couprie}{C.}%
+     {Camille}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Farabet}{F.}%
+     {Cl{\'e}ment}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {LeCun}{L.}%
+     {Yann}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Najman}{N.}%
+     {Laurent}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{CC+1}
+  \strng{fullhash}{CCFCLYNL1}
+  \field{labelyear}{2013}
+  \field{sortinit}{C}
+  \field{booktitle}{Image Processing (ICIP), 2013 20th IEEE International
+  Conference on}
+  \field{pages}{4249\bibrangedash 4253}
+  \field{title}{Causal graph-based video segmentation}
+  \field{year}{2013}
+\endentry
+
+\entry{couprie2014convolutional}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Couprie}{C.}%
+     {Camille}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Farabet}{F.}%
+     {Cl{\'e}ment}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Najman}{N.}%
+     {Laurent}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lecun}{L.}%
+     {Yann}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JMLR. org}%
+  }
+  \strng{namehash}{CC+1}
+  \strng{fullhash}{CCFCNLLY1}
+  \field{labelyear}{2014}
+  \field{sortinit}{C}
+  \field{number}{1}
+  \field{pages}{3489\bibrangedash 3511}
+  \field{title}{Convolutional nets and watershed cuts for real-time semantic
+  labeling of rgbd videos}
+  \field{volume}{15}
+  \field{journaltitle}{The Journal of Machine Learning Research}
+  \field{year}{2014}
+\endentry
+
+\entry{cousty2009watershed}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Cousty}{C.}%
+     {Jean}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bertrand}{B.}%
+     {Gilles}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Najman}{N.}%
+     {Laurent}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Couprie}{C.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{CJ+1}
+  \strng{fullhash}{CJBGNLCM1}
+  \field{labelyear}{2009}
+  \field{sortinit}{C}
+  \field{number}{8}
+  \field{pages}{1362\bibrangedash 1374}
+  \field{title}{Watershed cuts: Minimum spanning forests and the drop of water
+  principle}
+  \field{volume}{31}
+  \field{journaltitle}{Pattern Analysis and Machine Intelligence, IEEE
+  Transactions on}
+  \field{year}{2009}
+\endentry
+
+\entry{donahue2013decaf}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Donahue}{D.}%
+     {Jeff}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jia}{J.}%
+     {Yangqing}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vinyals}{V.}%
+     {Oriol}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoffman}{H.}%
+     {Judy}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Ning}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tzeng}{T.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Darrell}{D.}%
+     {Trevor}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DJ+1}
+  \strng{fullhash}{DJJYVOHJZNTEDT1}
+  \field{labelyear}{2013}
+  \field{sortinit}{D}
+  \field{title}{Decaf: A deep convolutional activation feature for generic
+  visual recognition}
+  \field{journaltitle}{arXiv preprint arXiv:1310.1531}
+  \field{year}{2013}
+\endentry
+
+\entry{duchi2011adaptive}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Duchi}{D.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hazan}{H.}%
+     {Elad}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Singer}{S.}%
+     {Yoram}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JMLR. org}%
+  }
+  \strng{namehash}{DJHESY1}
+  \strng{fullhash}{DJHESY1}
+  \field{labelyear}{2011}
+  \field{sortinit}{D}
+  \field{pages}{2121\bibrangedash 2159}
+  \field{title}{Adaptive subgradient methods for online learning and stochastic
+  optimization}
+  \field{volume}{12}
+  \field{journaltitle}{The Journal of Machine Learning Research}
+  \field{year}{2011}
+\endentry
+
+\entry{ess2009segmentation}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Ess}{E.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mueller}{M.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grabner}{G.}%
+     {Helmut}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Van~Gool}{V.~G.}%
+     {Luc~J}{L.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Citeseer}%
+  }
+  \strng{namehash}{EA+1}
+  \strng{fullhash}{EAMTGHVGLJ1}
+  \field{labelyear}{2009}
+  \field{sortinit}{E}
+  \field{booktitle}{BMVC}
+  \field{pages}{2}
+  \field{title}{Segmentation-Based Urban Traffic Scene Understanding.}
+  \field{volume}{1}
+  \field{year}{2009}
+\endentry
+
+\entry{felzenszwalb2004efficient}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Felzenszwalb}{F.}%
+     {Pedro~F}{P.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huttenlocher}{H.}%
+     {Daniel~P}{D.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{FPFHDP1}
+  \strng{fullhash}{FPFHDP1}
+  \field{labelyear}{2004}
+  \field{sortinit}{F}
+  \field{number}{2}
+  \field{pages}{167\bibrangedash 181}
+  \field{title}{Efficient graph-based image segmentation}
+  \field{volume}{59}
+  \field{journaltitle}{International Journal of Computer Vision}
+  \field{year}{2004}
+\endentry
+
+\entry{fischer2014descriptor}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Fischer}{F.}%
+     {Philipp}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dosovitskiy}{D.}%
+     {Alexey}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brox}{B.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FPDABT1}
+  \strng{fullhash}{FPDABT1}
+  \field{labelyear}{2014}
+  \field{sortinit}{F}
+  \field{title}{Descriptor matching with convolutional neural networks: a
+  comparison to sift}
+  \field{journaltitle}{arXiv preprint arXiv:1405.5769}
+  \field{year}{2014}
+\endentry
+
+\entry{fukushima1980neocognitron}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Fukushima}{F.}%
+     {Kunihiko}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{FK1}
+  \strng{fullhash}{FK1}
+  \field{labelyear}{1980}
+  \field{sortinit}{F}
+  \field{number}{4}
+  \field{pages}{193\bibrangedash 202}
+  \field{title}{Neocognitron: A self-organizing neural network model for a
+  mechanism of pattern recognition unaffected by shift in position}
+  \field{volume}{36}
+  \field{journaltitle}{Biological cybernetics}
+  \field{year}{1980}
+\endentry
+
+\entry{girshick2014rich}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Girshick}{G.}%
+     {Ross}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Donahue}{D.}%
+     {Jeff}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Darrell}{D.}%
+     {Trevor}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Malik}{M.}%
+     {Jagannath}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{GR+1}
+  \strng{fullhash}{GRDJDTMJ1}
+  \field{labelyear}{2014}
+  \field{sortinit}{G}
+  \field{booktitle}{Computer Vision and Pattern Recognition (CVPR), 2014 IEEE
+  Conference on}
+  \field{pages}{580\bibrangedash 587}
+  \field{title}{Rich feature hierarchies for accurate object detection and
+  semantic segmentation}
+  \field{year}{2014}
+\endentry
+
+\entry{glorot2011deep}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Glorot}{G.}%
+     {Xavier}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bordes}{B.}%
+     {Antoine}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bengio}{B.}%
+     {Yoshua}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GXBABY1}
+  \strng{fullhash}{GXBABY1}
+  \field{labelyear}{2011}
+  \field{sortinit}{G}
+  \field{booktitle}{International Conference on Artificial Intelligence and
+  Statistics}
+  \field{pages}{315\bibrangedash 323}
+  \field{title}{Deep sparse rectifier neural networks}
+  \field{year}{2011}
+\endentry
+
+\entry{grundmann2010efficient}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Grundmann}{G.}%
+     {Matthias}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kwatra}{K.}%
+     {Vivek}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Han}{H.}%
+     {Mei}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Essa}{E.}%
+     {Irfan}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{GM+1}
+  \strng{fullhash}{GMKVHMEI1}
+  \field{labelyear}{2010}
+  \field{sortinit}{G}
+  \field{booktitle}{Computer Vision and Pattern Recognition (CVPR), 2010 IEEE
+  Conference on}
+  \field{pages}{2141\bibrangedash 2148}
+  \field{title}{Efficient hierarchical graph-based video segmentation}
+  \field{year}{2010}
+\endentry
+
+\entry{hariharan2014hypercolumns}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Hariharan}{H.}%
+     {Bharath}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arbel{\'a}ez}{A.}%
+     {Pablo}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Girshick}{G.}%
+     {Ross}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Malik}{M.}%
+     {Jitendra}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HB+1}
+  \strng{fullhash}{HBAPGRMJ1}
+  \field{labelyear}{2014}
+  \field{sortinit}{H}
+  \field{title}{Hypercolumns for object segmentation and fine-grained
+  localization}
+  \field{journaltitle}{arXiv preprint arXiv:1411.5752}
+  \field{year}{2014}
+\endentry
+
+\entry{he2015delving}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {He}{H.}%
+     {Kaiming}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Xiangyu}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ren}{R.}%
+     {Shaoqing}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sun}{S.}%
+     {Jian}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HK+1}
+  \strng{fullhash}{HKZXRSSJ1}
+  \field{labelyear}{2015}
+  \field{sortinit}{H}
+  \field{title}{Delving deep into rectifiers: Surpassing human-level
+  performance on imagenet classification}
+  \field{journaltitle}{arXiv preprint arXiv:1502.01852}
+  \field{year}{2015}
+\endentry
+
+\entry{hinton2012improving}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Hinton}{H.}%
+     {Geoffrey~E}{G.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Srivastava}{S.}%
+     {Nitish}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krizhevsky}{K.}%
+     {Alex}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sutskever}{S.}%
+     {Ilya}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Salakhutdinov}{S.}%
+     {Ruslan~R}{R.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HGE+1}
+  \strng{fullhash}{HGESNKASISRR1}
+  \field{labelyear}{2012}
+  \field{sortinit}{H}
+  \field{title}{Improving neural networks by preventing co-adaptation of
+  feature detectors}
+  \field{journaltitle}{arXiv preprint arXiv:1207.0580}
+  \field{year}{2012}
+\endentry
+
+\entry{hong2015decoupled}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Hong}{H.}%
+     {Seunghoon}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Noh}{N.}%
+     {Hyeonwoo}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Han}{H.}%
+     {Bohyung}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HSNHHB1}
+  \strng{fullhash}{HSNHHB1}
+  \field{labelyear}{2015}
+  \field{sortinit}{H}
+  \field{title}{Decoupled Deep Neural Network for Semi-supervised Semantic
+  Segmentation}
+  \field{journaltitle}{arXiv preprint arXiv:1506.04924}
+  \field{year}{2015}
+\endentry
+
+\entry{horn1981determining}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Horn}{H.}%
+     {Berthold~K}{B.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schunck}{S.}%
+     {Brian~G}{B.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{2}{%
+    {International Society for Optics}%
+    {Photonics}%
+  }
+  \strng{namehash}{HBKSBG1}
+  \strng{fullhash}{HBKSBG1}
+  \field{labelyear}{1981}
+  \field{sortinit}{H}
+  \field{booktitle}{1981 Technical symposium east}
+  \field{pages}{319\bibrangedash 331}
+  \field{title}{Determining optical flow}
+  \field{year}{1981}
+\endentry
+
+\entry{jia2014caffe}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Jia}{J.}%
+     {Yangqing}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shelhamer}{S.}%
+     {Evan}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Donahue}{D.}%
+     {Jeff}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Karayev}{K.}%
+     {Sergey}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Long}{L.}%
+     {Jonathan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Girshick}{G.}%
+     {Ross}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guadarrama}{G.}%
+     {Sergio}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Darrell}{D.}%
+     {Trevor}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JY+1}
+  \strng{fullhash}{JYSEDJKSLJGRGSDT1}
+  \field{labelyear}{2014}
+  \field{sortinit}{J}
+  \field{title}{Caffe: Convolutional Architecture for Fast Feature Embedding}
+  \field{journaltitle}{arXiv preprint arXiv:1408.5093}
+  \field{year}{2014}
+\endentry
+
+\entry{Krizhevsky_imagenetclassification}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Krizhevsky}{K.}%
+     {Alex}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sutskever}{S.}%
+     {Ilya}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hinton}{H.}%
+     {Geoffrey~E.}{G.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KASIHGE1}
+  \strng{fullhash}{KASIHGE1}
+  \field{labelyear}{2012}
+  \field{sortinit}{K}
+  \field{booktitle}{Advances in Neural Information Processing Systems}
+  \field{title}{Imagenet classification with deep convolutional neural
+  networks}
+  \field{year}{2012}
+\endentry
+
+\entry{le1990handwritten}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Le~Cun}{L.~C.}%
+     {B~Boser}{B.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Denker}{D.}%
+     {John~S}{J.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Henderson}{H.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Howard}{H.}%
+     {Richard~E}{R.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hubbard}{H.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jackel}{J.}%
+     {Lawrence~D}{L.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Citeseer}%
+  }
+  \strng{namehash}{LCBB+1}
+  \strng{fullhash}{LCBBDJSHDHREHWJLD1}
+  \field{labelyear}{1990}
+  \field{sortinit}{L}
+  \field{booktitle}{Advances in neural information processing systems}
+  \field{title}{Handwritten digit recognition with a back-propagation network}
+  \field{year}{1990}
+\endentry
+
+\entry{lecun1998gradient}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {LeCun}{L.}%
+     {Yann}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bottou}{B.}%
+     {L{\'e}on}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bengio}{B.}%
+     {Yoshua}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haffner}{H.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{LY+1}
+  \strng{fullhash}{LYBLBYHP1}
+  \field{labelyear}{1998}
+  \field{sortinit}{L}
+  \field{number}{11}
+  \field{pages}{2278\bibrangedash 2324}
+  \field{title}{Gradient-based learning applied to document recognition}
+  \field{volume}{86}
+  \field{journaltitle}{Proceedings of the IEEE}
+  \field{year}{1998}
+\endentry
+
+\entry{lin2015efficient}{article}{}
+  \true{moreauthor}
+  \name{author}{3}{}{%
+    {{}%
+     {Lin}{L.}%
+     {Guosheng}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shen}{S.}%
+     {Chunhua}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reid}{R.}%
+     {Ian}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LGSCRI+1}
+  \strng{fullhash}{LGSCRI+1}
+  \field{labelyear}{2015}
+  \field{sortinit}{L}
+  \field{title}{Efficient piecewise training of deep structured models for
+  semantic segmentation}
+  \field{journaltitle}{arXiv preprint arXiv:1504.01013}
+  \field{year}{2015}
+\endentry
+
+\entry{long2014fully}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Long}{L.}%
+     {Jonathan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shelhamer}{S.}%
+     {Evan}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Darrell}{D.}%
+     {Trevor}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LJSEDT1}
+  \strng{fullhash}{LJSEDT1}
+  \field{labelyear}{2014}
+  \field{sortinit}{L}
+  \field{title}{Fully convolutional networks for semantic segmentation}
+  \field{journaltitle}{arXiv preprint arXiv:1411.4038}
+  \field{year}{2014}
+\endentry
+
+\entry{NIPS2014_5420}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Long}{L.}%
+     {Jonathan~L}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Ning}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Darrell}{D.}%
+     {Trevor}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{5}{}{%
+    {{}%
+     {Ghahramani}{G.}%
+     {Z.}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Welling}{W.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cortes}{C.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lawrence}{L.}%
+     {N.D.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weinberger}{W.}%
+     {K.Q.}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Curran Associates, Inc.}%
+  }
+  \strng{namehash}{LJLZNDT1}
+  \strng{fullhash}{LJLZNDT1}
+  \field{labelyear}{2014}
+  \field{sortinit}{L}
+  \field{booktitle}{Advances in Neural Information Processing Systems 27}
+  \field{pages}{1601\bibrangedash 1609}
+  \field{title}{Do Convnets Learn Correspondence?}
+  \verb{url}
+  \verb http://papers.nips.cc/paper/5420-do-convnets-learn-correspondence.pdf
+  \endverb
+  \field{year}{2014}
+\endentry
+
+\entry{maas2013rectifier}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Maas}{M.}%
+     {Andrew~L}{A.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hannun}{H.}%
+     {Awni~Y}{A.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ng}{N.}%
+     {Andrew~Y}{A.~Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MALHAYNAY1}
+  \strng{fullhash}{MALHAYNAY1}
+  \field{labelyear}{2013}
+  \field{sortinit}{M}
+  \field{booktitle}{Proc. ICML}
+  \field{title}{Rectifier nonlinearities improve neural network acoustic
+  models}
+  \field{volume}{30}
+  \field{year}{2013}
+\endentry
+
+\entry{miksik2013efficient}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Miksik}{M.}%
+     {Ondrej}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Munoz}{M.}%
+     {Delfina}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bagnell}{B.}%
+     {J~Andrew}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hebert}{H.}%
+     {Martial}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{MO+1}
+  \strng{fullhash}{MOMDBJAHM1}
+  \field{labelyear}{2013}
+  \field{sortinit}{M}
+  \field{booktitle}{Robotics and Automation (ICRA), 2013 IEEE International
+  Conference on}
+  \field{pages}{133\bibrangedash 139}
+  \field{title}{Efficient temporal consistency for streaming video scene
+  analysis}
+  \field{year}{2013}
+\endentry
+
+\entry{nesterov1983method}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Nesterov}{N.}%
+     {Yurii}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NY1}
+  \strng{fullhash}{NY1}
+  \field{labelyear}{1983}
+  \field{sortinit}{N}
+  \field{booktitle}{Soviet Mathematics Doklady}
+  \field{number}{2}
+  \field{pages}{372\bibrangedash 376}
+  \field{title}{A method of solving a convex programming problem with
+  convergence rate O (1/k2)}
+  \field{volume}{27}
+  \field{year}{1983}
+\endentry
+
+\entry{noh2015learning}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Noh}{N.}%
+     {Hyeonwoo}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hong}{H.}%
+     {Seunghoon}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Han}{H.}%
+     {Bohyung}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NHHSHB1}
+  \strng{fullhash}{NHHSHB1}
+  \field{labelyear}{2015}
+  \field{sortinit}{N}
+  \field{title}{Learning Deconvolution Network for Semantic Segmentation}
+  \field{journaltitle}{arXiv preprint arXiv:1505.04366}
+  \field{year}{2015}
+\endentry
+
+\entry{paris2008edge}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Paris}{P.}%
+     {Sylvain}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{PS1}
+  \strng{fullhash}{PS1}
+  \field{labelyear}{2008}
+  \field{sortinit}{P}
+  \field{booktitle}{Computer Vision--ECCV 2008}
+  \field{pages}{460\bibrangedash 473}
+  \field{title}{Edge-preserving smoothing and mean-shift segmentation of video
+  streams}
+  \field{year}{2008}
+\endentry
+
+\entry{paris2007topological}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Paris}{P.}%
+     {Sylvain}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Durand}{D.}%
+     {Fr{\'e}do}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{PSDF1}
+  \strng{fullhash}{PSDF1}
+  \field{labelyear}{2007}
+  \field{sortinit}{P}
+  \field{booktitle}{Computer Vision and Pattern Recognition, 2007. CVPR'07.
+  IEEE Conference on}
+  \field{pages}{1\bibrangedash 8}
+  \field{title}{A topological approach to hierarchical segmentation using mean
+  shift}
+  \field{year}{2007}
+\endentry
+
+\entry{rabiner1989tutorial}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rabiner}{R.}%
+     {Lawrence~R}{L.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{RLR1}
+  \strng{fullhash}{RLR1}
+  \field{labelyear}{1989}
+  \field{sortinit}{R}
+  \field{number}{2}
+  \field{pages}{257\bibrangedash 286}
+  \field{title}{A tutorial on hidden Markov models and selected applications in
+  speech recognition}
+  \field{volume}{77}
+  \field{journaltitle}{Proceedings of the IEEE}
+  \field{year}{1989}
+\endentry
+
+\entry{sermanet2013overfeat}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Sermanet}{S.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eigen}{E.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Xiang}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mathieu}{M.}%
+     {Micha{\"e}l}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fergus}{F.}%
+     {Rob}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {LeCun}{L.}%
+     {Yann}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SP+1}
+  \strng{fullhash}{SPEDZXMMFRLY1}
+  \field{labelyear}{2013}
+  \field{sortinit}{S}
+  \field{title}{Overfeat: Integrated recognition, localization and detection
+  using convolutional networks}
+  \field{journaltitle}{arXiv preprint arXiv:1312.6229}
+  \field{year}{2013}
+\endentry
+
+\entry{simonyan2014very}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Simonyan}{S.}%
+     {Karen}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zisserman}{Z.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SKZA1}
+  \strng{fullhash}{SKZA1}
+  \field{labelyear}{2014}
+  \field{sortinit}{S}
+  \field{title}{Very deep convolutional networks for large-scale image
+  recognition}
+  \field{journaltitle}{arXiv preprint arXiv:1409.1556}
+  \field{year}{2014}
+\endentry
+
+\entry{srivastava2014dropout}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Srivastava}{S.}%
+     {Nitish}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hinton}{H.}%
+     {Geoffrey}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krizhevsky}{K.}%
+     {Alex}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sutskever}{S.}%
+     {Ilya}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Salakhutdinov}{S.}%
+     {Ruslan}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JMLR. org}%
+  }
+  \strng{namehash}{SN+1}
+  \strng{fullhash}{SNHGKASISR1}
+  \field{labelyear}{2014}
+  \field{sortinit}{S}
+  \field{number}{1}
+  \field{pages}{1929\bibrangedash 1958}
+  \field{title}{Dropout: A simple way to prevent neural networks from
+  overfitting}
+  \field{volume}{15}
+  \field{journaltitle}{The Journal of Machine Learning Research}
+  \field{year}{2014}
+\endentry
+
+\entry{sutskever2013importance}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Sutskever}{S.}%
+     {Ilya}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martens}{M.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dahl}{D.}%
+     {George}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hinton}{H.}%
+     {Geoffrey}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SI+1}
+  \strng{fullhash}{SIMJDGHG1}
+  \field{labelyear}{2013}
+  \field{sortinit}{S}
+  \field{booktitle}{Proceedings of the 30th international conference on machine
+  learning (ICML-13)}
+  \field{pages}{1139\bibrangedash 1147}
+  \field{title}{On the importance of initialization and momentum in deep
+  learning}
+  \field{year}{2013}
+\endentry
+
+\entry{szegedy2014going}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Szegedy}{S.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Wei}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jia}{J.}%
+     {Yangqing}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sermanet}{S.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reed}{R.}%
+     {Scott}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anguelov}{A.}%
+     {Dragomir}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Erhan}{E.}%
+     {Dumitru}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vanhoucke}{V.}%
+     {Vincent}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rabinovich}{R.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SC+1}
+  \strng{fullhash}{SCLWJYSPRSADEDVVRA1}
+  \field{labelyear}{2014}
+  \field{sortinit}{S}
+  \field{title}{Going deeper with convolutions}
+  \field{journaltitle}{arXiv preprint arXiv:1409.4842}
+  \field{year}{2014}
+\endentry
+
+\entry{zeiler2014visualizing}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Zeiler}{Z.}%
+     {Matthew~D}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fergus}{F.}%
+     {Rob}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{ZMDFR1}
+  \strng{fullhash}{ZMDFR1}
+  \field{labelyear}{2014}
+  \field{sortinit}{Z}
+  \field{booktitle}{Computer Vision--ECCV 2014}
+  \field{pages}{818\bibrangedash 833}
+  \field{title}{Visualizing and understanding convolutional networks}
+  \field{year}{2014}
+\endentry
+
+\entry{zeiler2011adaptive}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Zeiler}{Z.}%
+     {Matthew~D}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Taylor}{T.}%
+     {Graham~W}{G.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fergus}{F.}%
+     {Rob}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{ZMDTGWFR1}
+  \strng{fullhash}{ZMDTGWFR1}
+  \field{labelyear}{2011}
+  \field{sortinit}{Z}
+  \field{booktitle}{Computer Vision (ICCV), 2011 IEEE International Conference
+  on}
+  \field{pages}{2018\bibrangedash 2025}
+  \field{title}{Adaptive deconvolutional networks for mid and high level
+  feature learning}
+  \field{year}{2011}
+\endentry
+
+\entry{zeiler2013rectified}{inproceedings}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Zeiler}{Z.}%
+     {Matthew~D}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ranzato}{R.}%
+     {Marc'Aurelio}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Monga}{M.}%
+     {Rajat}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mao}{M.}%
+     {Min}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yang}{Y.}%
+     {Kun}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Le}{L.}%
+     {Quoc~Viet}{Q.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nguyen}{N.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Senior}{S.}%
+     {Alan}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vanhoucke}{V.}%
+     {Vincent}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dean}{D.}%
+     {Jeffrey}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{ZMD+1}
+  \strng{fullhash}{ZMDRMMRMMYKLQVNPSAVVDJ+1}
+  \field{labelyear}{2013}
+  \field{sortinit}{Z}
+  \field{booktitle}{Acoustics, Speech and Signal Processing (ICASSP), 2013 IEEE
+  International Conference on}
+  \field{pages}{3517\bibrangedash 3521}
+  \field{title}{On rectified linear units for speech processing}
+  \field{year}{2013}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
